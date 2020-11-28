@@ -39,7 +39,7 @@
 
 /* About section */
 #About{
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 #About img{
