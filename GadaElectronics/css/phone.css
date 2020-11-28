@@ -24,7 +24,7 @@
 
 /* Services section  */
 #services{
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #services .box { 
@@ -33,8 +33,8 @@
     margin-bottom: 20px;
 }
 #services img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 /* About section */
@@ -43,9 +43,9 @@
 }
 
 #About img{
-    width: 250px;
+    width: 150px;
     padding: 1px;
-    height: auto;
+    height: 200px;
 }
 
 /* Contact us section */
