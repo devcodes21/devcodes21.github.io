@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0;
@@ -73,6 +74,7 @@ html{
 
 .firstSection{
     height: 100vh;
+    background-image: url('img1.jpg');
 }
 
 .box-main{
@@ -88,21 +90,17 @@ html{
 
 .firstHalf{
     width: 80%;
-    display: ;
+    display:block;
     flex-direction: column;
     justify-content: center;
-    background: img,img.jpg;
+    background-image: url("img.jpg") ;
     
 }
 
 .secondHalf{
     width: 30%;
-background-image="img,img.jpg
+background-image: url("img1.jpg");
 }
-<<<<<<< Updated upstream
-
-
-=======
 .text-big{
     font-size: 41px;
 }
@@ -113,7 +111,6 @@ background-image="img,img.jpg
     display: block;
     margin: auto;
 }
->>>>>>> Stashed changes
 
 .ourcompany{
     font-size: 41px;
@@ -180,9 +177,17 @@ background-image="img,img.jpg
 }
 
 .contact{
-    background-color: #f6f5f4;
-    height: 833px;
+    /* background-color: #f6f5f4; */
+    /* background-image: linear-gradient(to top, #051937, #3e205b, #850464, #c5004c, #eb1212); */
+    background-image: linear-gradient(to right, #16e1db, #6fe5fd, #b2e8ff, #e1ecff, #f7f7f7);
+    color: azure;
+    height: 100%;
+    font-size: larger;
 }
+/* .form-input{
+    color: azure;
+    font-size: 2.5rem;
+} */
 .text-center{
 
     text-align: center;
@@ -209,6 +214,7 @@ form{
     display: inline-flex;
     justify-content: center;
     background: url('bg.jpg') no-repeat center center/cover;
+    color: azure;
 }
 
 
@@ -224,4 +230,12 @@ form{
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px ;
+    margin-left: 600px;
+    /* background-color: cadetblue; */
 }
